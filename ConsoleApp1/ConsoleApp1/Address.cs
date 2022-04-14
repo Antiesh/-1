@@ -42,5 +42,11 @@ namespace ConsoleApp1
                 this.house = value;
             }
         }
+        public Address(string city, string street, int house)
+        {
+            this.City = city;
+            this.Street = street;
+            this.House = house;
+        }
     }
 }
